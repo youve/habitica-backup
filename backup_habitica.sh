@@ -3,7 +3,7 @@
 WORKDIR=$HOME/habitica
 CONFIG=$WORKDIR/config
 DELETE_AFTER=30 # days
-DATE=$(date --iso-8601=minutes)
+DATE=$(date --iso-8601=hours)
 FILENAME=$WORKDIR/$DATE-habitica-user-data.json
 PARSED_FILENAME=$WORKDIR/$DATE.json
 AUTHOR_ID="52d07da8-722d-499e-896e-837b5a47309f"
