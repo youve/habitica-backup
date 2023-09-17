@@ -7,4 +7,4 @@ info.
 This is saved in a json file which you can then examine with jq to get some tasks
 
 For example, the 3 dailies with the lowest value:
-`jq '.dailies[0:3]' $(ls -1 *.json | tail -1)`
+`jq '.dailies[0:3]' $(ls -1 2*.json | tail -1)`
